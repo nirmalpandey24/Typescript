@@ -7,7 +7,7 @@ export default function Home(){
 
   function showname(person:nirmal):void{
 
-    console.log(`${person.name,}`)
+    console.log(`${person.name,person.age}`)
   }
 
   showname({
